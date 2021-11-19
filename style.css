@@ -36,7 +36,25 @@ button {
   border: 2px solid #E5E7EB;
 }
 
+/* Padding */
+nav,
+.text-container,
+.services,
+.quote,
+.action-container {
+  padding: 0 20px;
+}
+
 /* HEADER SECTION */
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
 nav h2 {
   font-size: 24px;
   color: #F9FAF8;
@@ -46,13 +64,45 @@ nav ul,
 .showcase .text-container p {
   font-size: 18px;
   color: #E5E7EB;
-}  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+/* Showcase */
+.showcase {
+  display: flex;
+  padding: 100px;
+}
+
+.showcase .text-container,
+.showcase .image-container {
+  flex: 1;
+  width: 50%;
+  padding: 0 50px;
+}
 
 .showcase .text-container h1 {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
-}  
+}
+
+.showcase .text-container p {
+  margin: 15px 0;
+}
+
+.showcase .image-container {
+  background: url('https://source.unsplash.com/random') no-repeat center center /cover;
+  width: 100%;
+  height: auto;
+}
 
 /* MAIN SECTION */
 .services h2 {
