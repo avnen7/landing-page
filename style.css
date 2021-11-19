@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+  background-color: #1F2937;
+}
+
+.logo,
+.head-link,
+button {
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  background-color: #3882F6;
+  padding: 5px 20px;
+  border-radius: 7px;
+}
+
+.btn-primary {
+  color: #F9FAF8;
+  border-color: #3882F6;
+}
+
+.btn-secondary {
+  color: #E5E7EB;
+  border: 2px solid #E5E7EB;
+}
+
+/* HEADER SECTION */
+nav h2 {
+  font-size: 24px;
+  color: #F9FAF8;
+}  
+
+nav ul,
+.showcase .text-container p {
+  font-size: 18px;
+  color: #E5E7EB;
+}  
+
+.showcase .text-container h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}  
+
+/* MAIN SECTION */
+.services h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quote figure blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote figure figcaption {
+  font-weight: bold;
+}
+
+.content-container {
+  background-color: #3882F6;
+}
