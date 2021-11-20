@@ -105,7 +105,10 @@ nav ul li {
 .showcase .image-container {
   flex: 1;
   width: 50%;
-  padding: 0 50px;
+}
+
+.showcase .text-container {
+  padding-right: 80px;
 }
 
 .showcase .text-container h1 {
