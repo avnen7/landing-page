@@ -8,6 +8,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  border-bottom: 1px solid #E5E7EB;
+  padding-bottom: 2px;
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
 header,
 footer {
   background-color: #1F2937;
