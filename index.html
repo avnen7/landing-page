@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Icon Link -->
+    <link rel="icon" href="./images/icon.png" type="image/png" />
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,18 +32,18 @@
   </head>
   <body>
     <!-- HEADER SECTION -->
-    <header>
+    <header id="top">
       <!-- Navbar -->
       <nav>
-        <h2 id="logo">
-          <a href="#">Header Logo</a>
-        </h2>
+        <a href="#top" class="logo">
+            <img id="logo" src="./images/logo.png" alt="logo image" />
+        </a>
         <ul class="header-links">
           <li class="head-link">
-            <a href="#services">Services</a>
+            <a href="#services">Courses</a>
           </li>
           <li class="head-link">
-            <a href="#quote">Our values</a>
+            <a href="#quote">Pricing</a>
           </li>
         </ul>
       </nav>
@@ -48,13 +51,14 @@
       <!-- Showcase -->
       <div class="showcase">
         <div class="text-container">
-          <h1>This website is awesome</h1>
+          <h1>Want to learn Korean?</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
-            repudiandae totam a ipsa, suscipit sit itaque temporibus
-            necessitatibus placeat pariatur.
+            We know learning a language can be challenging and time-consuming especially when starting out..
           </p>
-          <button class="btn-primary">Sign up</button>
+          <p>
+            Whether you're moving to a new country or simply want to understand your favorite tv series, <strong>we believe learning can be fun and engaging!</strong>
+          </p>
+          <button class="btn-primary" href="#services">Get started</button>
         </div>
         <div class="image-container"></div>
       </div>
@@ -64,23 +68,27 @@
     <main>
       <!-- Services -->
       <div id="services" class="services">
-        <h2>Some random information.</h2>
+        <h2>What we will learn</h2>
         <ul class="cards">
           <li class="card">
-            <i class="fas fa-baby fa-5x"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <i class="fab fa-earlybirds fa-5x"></i>
+            <h3><strong>The Essentials</strong> </h3>
+            <p>Learning how to learn. Healthy approaches to a new language</p>
           </li>
           <li class="card">
-            <i class="fas fa-graduation-cap fa-5x"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <i class="far fa-comments fa-5x"></i>
+            <h3>Written vs Spoken</h3>
+            <p>We tackle the differences of how one form doesn't always translate well to an other</p>
+          </li>
+          <li class="card">
+            <i class="far fa-laugh-beam fa-5x"></i>
+            <h3><strong>Making it fun!</strong></h3>
+            <p>Fun topics to debate at our weekly online classes to solidify your knowledge</p>
           </li>
           <li class="card">
             <i class="fas fa-glass-cheers fa-5x"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-          </li>
-          <li class="card">
-            <i class="fas fa-globe-europe fa-5x"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h3>Connecting</h3>
+            <p>Take your skills to the next level by applying your knowledge in conversations</p>
           </li>
         </ul>
       </div>
@@ -88,23 +96,21 @@
       <div id="quote" class="quote">
         <figure>
           <blockquote>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nam
-            laudantium quas eos fugit atque numquam quidem odit quisquam
-            recusandae maiores temporibus aut distinctio a modi cumque tenetur
-            vel ad.
+            All our courses are free and available to all. <br>
+            We do however charge &#36;100 per swear word during our in-person meetings and cannot guarantee that you won't.
           </blockquote>
-          <figcaption>&mdash; Thor, God of Thunder</figcaption>
+          <figcaption>&mdash; Smiley Face, Executive Director</figcaption>
         </figure>
       </div>
       <!-- Call to Action -->
       <div class="action-container">
         <div class="content-container">
           <div class="content-left">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that right over there!</p>
+            <h3>Start your journey</h3>
+            <p>Set up your account and get started in less than a minute!</p>
           </div>
           <div class="content-right">
-            <button class="btn-secondary">Sign up</button>
+            <button class="btn-secondary">Get started</button>
           </div>
         </div>
       </div>
