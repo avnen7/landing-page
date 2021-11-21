@@ -1,8 +1,8 @@
-# Landing Page
+# Odin | Landing Page
 
 ## Description
 
-This project showcases my knowledge of *css flexbox* by creating a landing page from scratch while following certain instructions such as the overall structure of the page as well as using specific fonts, sizes and colors. The project was made using a **1280x1024** resolution screen.
+This project showcases my knowledge of *css flexbox* by creating a landing page from scratch while following specific instructions such as the overall structure of the page as well as using specific fonts, sizes and colors. The project was made using a **1280x1024** resolution screen.
 
 You can view the [**live version here**](https://avnen7.github.io/odin-landing-page/)
 
@@ -14,6 +14,7 @@ The project is part of [**The Odin Project curriculum**](https://www.theodinproj
 - Using an image api to generate a different image each visit
 - Creating and linking logos and icons
 - Writing semantic html
+- Replacing placeholder text with actual original content
 - Commenting more
 - Making commits easy to identify and read
 - Researching 
