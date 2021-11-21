@@ -28,7 +28,7 @@ The project is part of [**The Odin Project curriculum**](https://www.theodinproj
 
 - The logo was designed using [**Free Logo Design**](https://www.freelogodesign.org/)
 
-- Images: [**Unsplash**](https://unsplash.com/)
+- Image collection: [**Unsplash**](https://unsplash.com/collections/2592165/korea)
 
 - Icons: [**Font Awesome**](https://fontawesome.com/)
 
