@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -67,31 +68,37 @@ button:hover {
 
 /* NAV */
 nav {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  background-color: #1F2937;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px 0;
 }
 
-nav #logo {
+#logo {
   font-size: 24px;
   color: #F9FAF8;
 }
 
-nav #logo:hover {
+#logo a:hover {
   opacity: 1;
 }
 
-nav .header-links,
+.header-links,
 .showcase .text-container p {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-nav ul {
+.header-links {
   display: flex;
 }
 
-nav ul li {
+.head-link {
   margin: 0 20px;
 }
 
@@ -101,33 +108,35 @@ nav ul li {
   padding: 100px;
 }
 
-.showcase .text-container,
-.showcase .image-container {
+.text-container,
+.image-container {
   flex: 1;
   width: 50%;
 }
 
-.showcase .text-container {
+.text-container {
   padding-right: 80px;
 }
 
-.showcase .text-container h1 {
+.text-container h1 {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
 }
 
-.showcase .text-container p {
+.text-container p {
   margin: 15px 0;
 }
 
-.showcase .image-container {
-  background: url('https://source.unsplash.com/random') no-repeat center center /cover;
+.image-container {
+  background: url('https://source.unsplash.com/collection/2592165/korea') no-repeat center center/cover;
   width: 100%;
-  height: auto;
 }
 
 /* MAIN SECTION */
+#services {
+  padding-top: 100px;
+}
 
 /* Services */
 .services {
@@ -142,7 +151,7 @@ nav ul li {
   margin-bottom: 50px;
 }
 
-.services .cards {
+.cards {
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: center;
@@ -151,16 +160,16 @@ nav ul li {
   margin: 50px 50px;
 }
 
-.services ul li {
+.card {
   margin: 0 20px;
   padding: 30px 0;
 }
 
-.services ul li i {
+.card i {
   color: #3882F6;
 }
 
-.services ul li p {
+.card p {
   margin: 30px 0 0;
 }
 
@@ -170,17 +179,17 @@ nav ul li {
   padding: 50px;
 }
 
-.quote figure {
+figure {
   margin: 80px 150px;
 }
 
-.quote figure blockquote {
+blockquote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
 
-.quote figure figcaption {
+figcaption {
   margin-top: 30px;
   text-align: end;
   font-weight: bold;
