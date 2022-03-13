@@ -34,6 +34,6 @@ The project is part of [**The Odin Project curriculum**](https://www.theodinproj
 
 - Icons: [**Font Awesome**](https://fontawesome.com/)
 
-- Font: [**Goole Fonts**](https://fonts.google.com/specimen/Roboto)
+- Font: [**Google Fonts**](https://fonts.google.com/specimen/Roboto)
 
 
