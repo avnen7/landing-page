@@ -6,7 +6,7 @@ This project showcases my knowledge of *css flexbox* by creating a landing page 
 
 <br>
 
-You can view the [**live version here**](https://avnen7.github.io/odin-landing-page/)
+You can view the [**live version here**](https://avnen7.github.io/landing-page/)
 
 The project is part of [**The Odin Project curriculum**](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)
 
